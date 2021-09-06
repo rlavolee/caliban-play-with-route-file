@@ -1,0 +1,7 @@
+GET     /                           controllers.HomeController.index
+
+->      /                           controllers.GraphController
+
+GET     /someLegacy                 controllers.HomeController.someLegacy
+POST    /someLegacy                 controllers.HomeController.someLegacy
+
